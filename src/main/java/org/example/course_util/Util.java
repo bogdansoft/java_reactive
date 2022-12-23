@@ -20,7 +20,15 @@ public class Util {
         return () -> System.out.println("Completed");
     }
 
-    public static Faker faker(){
+    public static Faker faker() {
         return FAKER;
+    }
+
+    public static void sleepSeconds(int seconds) {
+        try {
+            Thread.sleep(1000 * seconds);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -5,7 +5,11 @@ import reactor.core.publisher.Mono;
 
 public class Lec04MonoEmptyOrError {
     public static void main(String[] args) {
-
+        userRepository(10).subscribe(
+                Util.onNext(),
+                Util.onError(),
+                Util.onComplete()
+        );
     }
 
     private static Mono<String> userRepository(int userId) {
