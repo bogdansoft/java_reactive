@@ -1,7 +1,7 @@
-package org.example.section_1;
+package org.example.section_1_mono;
 
 import org.example.course_util.Util;
-import org.example.section_1.assignment.FileService;
+import org.example.section_1_mono.assignment.FileService;
 
 public class Lec09AssignmentDemo {
 

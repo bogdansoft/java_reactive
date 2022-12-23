@@ -1,4 +1,4 @@
-package org.example.section_1;
+package org.example.section_1_mono;
 
 import org.example.course_util.Util;
 import reactor.core.publisher.Mono;

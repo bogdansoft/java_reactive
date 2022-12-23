@@ -1,4 +1,4 @@
-package org.example.section_1.assignment;
+package org.example.section_1_mono.assignment;
 
 import reactor.core.publisher.Mono;
 
